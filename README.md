@@ -41,3 +41,24 @@ Interpretation:
 - EWMA model produces lower (less conservative) VaR than full portfolio historical estimation.
 - Stress scenario significantly increases tail risk, with losses ~1.6× higher than normal VaR.
 - ES consistently exceeds VaR, confirming heavier tail loss behavior.
+
+## Visual Results
+
+### 1. EWMA Portfolio Risk Distribution
+![EWMA Distribution](results/EWMA%20Portfolio%20Risk%20Distribution.png)
+
+Shows the distribution of portfolio returns under EWMA volatility modeling.
+
+---
+
+### 2. GARCH VaR Backtest (Student-t)
+![GARCH VaR Backtest](results/GARCH%20VaR%20Backtest%20(Student-t).png)
+
+Demonstrates VaR violations under heavy-tailed Student-t assumptions.
+
+---
+
+### 3. Monte Carlo Return Distribution
+![Monte Carlo](results/Portfolio%20Monte%20Carlo%20Return%20Distribution.png)
+
+Simulated return distribution capturing tail risk under stochastic scenarios.
